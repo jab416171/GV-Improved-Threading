@@ -1,0 +1,19 @@
+{
+    "title": "GVThreading",
+    "name": "Improved Threading for Google Voice",
+    "version": "0.1",
+    "description": "This extension is designed to improve the way Google Voice handles threading.",
+    "content_scripts": [
+        {
+            "matches":[
+                "http://www.google.com/voice/*",
+                "https://www.google.com/voice/*"
+            ],
+            "js":["contentscript.js"]
+        }
+    ],
+    "permissions":[
+        "http://www.google.com/voice/*",
+        "https://www.google.com/voice/*"
+    ]
+}
