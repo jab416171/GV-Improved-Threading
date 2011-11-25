@@ -9,13 +9,11 @@
                 "http://www.google.com/voice/*",
                 "https://www.google.com/voice/*"
             ],
-            "js":["contentscript.js"]
+            "js":["js/jquery.1.6.2.min.js", "js/contentscript.js"]
         }
     ],
     "permissions":[
         "http://www.google.com/voice/*",
         "https://www.google.com/voice/*"
-    ],
-    "background_page": "background.html"
-
+    ]
 }
