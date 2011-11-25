@@ -15,5 +15,7 @@
     "permissions":[
         "http://www.google.com/voice/*",
         "https://www.google.com/voice/*"
-    ]
+    ],
+    "background_page": "background.html"
+
 }
