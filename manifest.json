@@ -9,7 +9,7 @@
                 "http://www.google.com/voice/*",
                 "https://www.google.com/voice/*"
             ],
-            "js":["js/jquery.1.6.2.min.js", "js/contentscript.js"]
+            "js":["js/jquery-1.7.1.min.js", "js/contentscript.js"]
         }
     ],
     "permissions":[
